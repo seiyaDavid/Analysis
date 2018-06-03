@@ -1,5 +1,5 @@
-library(mlr)
-library(h2o)
+library(mlr) # required for nice looking summarization of dataset
+library(h2o) # required for deeplearning modeling
 h2o.init(nthreads = -1)
 
 # Importing the dataset
