@@ -1,3 +1,15 @@
+# The objective of this project is to develop
+# a predictive model that would identify dissatisfied
+# customers of Santander. This is key for customer
+# retenstion as well as business growth.
+
+
+# # The dataset used  for this demonstration was extracted from the url:
+# https://www.kaggle.com/c/santander-customer-satisfaction
+# and can be found in the dataset folder of this Github page.
+
+# The analytics tool of choice for this project is R version 3.4.3
+
 library(mlr) # required for nice looking summarization of dataset
 library(h2o) # required for deeplearning modeling
 h2o.init(nthreads = -1)
